@@ -53,7 +53,7 @@
 &kp Q  &kp W           &kp E             &kp R               &kp T              &kp Y        &kp U               &kp I              &kp O    &kp P
 &kp A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LEFT_CONTROL F  &td_caps           &kp H        &hm LEFT_CONTROL J  &hm RIGHT_SHIFT K  &kp L    &hm RIGHT_ALT SEMICOLON
 &kp Z  &kp X           &kp C             &kp V               &kp B              &kp N        &kp M               &kp COMMA          &kp DOT  &kp FSLH
-                                         &kp DELETE          &lt 1 BACKSPACE    &kp ESC &lt 2 SPACE  &kp TAB
+                                         &kp DELETE          &lt 1 BACKSPACE    &soft_off &lt 2 SPACE  &kp TAB
             >;
         };
 
@@ -79,7 +79,7 @@
             bindings = <
 &none         &none         &none         &none       &kp C_MUTE           &none  &none  &none  &none  &sys_reset
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &kp C_VOLUME_UP      &none  &none  &none  &none  &bootloader
-&kp LG(L)     &none         &none         &none       &kp C_VOLUME_DOWN    &none  &none  &none  &none  &soft_off
+&kp LG(L)     &none         &none         &none       &kp C_VOLUME_DOWN    &none  &none  &none  &none  &none
                                           &none       &none                &none &none  &none
             >;
         };
